@@ -1,0 +1,28 @@
+{
+  "name": "stack-structure",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/pastoremetal/stackStructure.git",
+  "author": "pastoremetal",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src/**/*.js",
+    "start": "node ./src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^7.0.0"
+  }
+}

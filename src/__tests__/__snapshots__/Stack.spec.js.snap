@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`5 non sequential integers and floats with repeated values add more 5 non sequential integers and should match snapshot 1`] = `
+Array [
+  43,
+  23,
+  9,
+  7,
+  2,
+  8,
+  65,
+  0.2,
+  1,
+  1,
+  59.3,
+  0.1,
+  0.1,
+]
+`;
+
+exports[`5 non sequential integers and floats with repeated values should remove value from top of stack 1`] = `
+Array [
+  43,
+  23,
+  9,
+  7,
+  2,
+  8,
+  65,
+  0.2,
+  1,
+  1,
+  59.3,
+  0.1,
+]
+`;
