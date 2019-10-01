@@ -56,6 +56,7 @@ const Menu = {
                     return 0;
 
                 default:
+                    Menu.start();
                     return 0;
             }
             return 0;
